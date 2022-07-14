@@ -1,4 +1,6 @@
 import './style.css';
-import { getWeather } from './functions/api';
+import { getWeather } from './functions/getWeather';
 
-getWeather('Palma');
+// async function main() {
+//   const weatherData = await getWeather('Palma');
+// }
