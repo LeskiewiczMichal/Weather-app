@@ -2,7 +2,7 @@ async function getWeather(city) {
   try {
     // fetch weather info from other website with the city inside input
     const response = await fetch(
-      `http://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=ed7a5619e14a98cd13e091aef92cc5ae`,
+      `https://api.openweathermap.org/data/2.5/weather?q=${city}&APPID=ed7a5619e14a98cd13e091aef92cc5ae`,
       { mode: 'cors' }
     );
     // check if server didn't throw an error
